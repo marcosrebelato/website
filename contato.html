@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contato/Hitech-show</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+	<ol>
+	<!---<li><b href="#logo"><img src="F:\TI\programação web\trabalho-novo\imagens\logo2.png"></b></li>--->
+	<li><b href="#logo">    HITECH-SHOW.com   </b></li>
+
+	<li><a href="index.html">Home</a></li>
+	<li><a href="assuntos.html">Assuntos</a></li>
+	<li><a href="quem_somos.html">Quem Somos</a></li>
+	<li class="active"><a href="contato.html">Contato</a></li>
+	<!---<li><c href="#info">Seu site de curiosidades em um só clique!</c></li>--->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).on('click','ol li', function(){
+			$(this).addClass('active').siblings().removeClass('active')
+			
+		})
+		</script>
+	
+	</ol>
+
+
+</header>
+
+<div class="container"> 
+
+<div class="container_assuntos">
+<h1> Contato </h1>
+ 
+  <form action="#" class="form-contact" method="post" tabindex="1">  
+     <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
+     <input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
+     <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
+     <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+     <button type="submit" class="form-contact-button">Enviar</button>  
+  </form>  
+</div>  
+
+<!--copyright-->
+<div class="Marcos e Fabiano">
+   <center><b><h3>&copy; Hitech-show  | Desenvolvido por Fabiano e Marcos</h3></b></center>
+   </div>
+<!--//copyright-->
+</div>
+
+
+</body>
+</html>

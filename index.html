@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assuntos/HITECH-SHOW</Title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<header>
+
+	<ol>
+	<!---<li><b href="#logo"><img src="F:\TI\programação web\trabalho-novo\imagens\logo2.png"></b></li>--->
+	<li><b href="#logo">    HITECH-SHOW.com   </b></li>
+
+	<li class="active"><a href="index.html">Home</a></li>
+	<li><a href="assuntos.html">Assuntos</a></li>
+	<li><a href="quem_somos.html">Quem Somos</a></li>
+	<li><a href="contato.html">Contato</a></li>
+	<!---<li><c href="#info">Seu site de curiosidades em um só clique!</c></li>--->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).on('click','ol li', function(){
+			$(this).addClass('active').siblings().removeClass('active')
+			
+		})
+		</script>
+	
+	</ol>
+
+</header>
+
+<div class="container">
+
+
+
+	<h1>Ultimas Postagens:</h1>
+	<br></br>
+	
+	
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="inteligencia-artificial.html">
+      <img src="ia1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Inteligencia Artificial</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Internet-das-coisas.html">
+      <img src="iot1.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Internet Das Coisas</div>
+  </div>
+</div>
+
+<br></br><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="industria-4.0.html">
+      <img src="industria_a4.0.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Industria 4.0</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="revolucaodigital.html">
+      <img src="revolucao-digital1.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Revolução Digital</div>
+  </div>
+</div>
+<br></br>
+
+	
+	
+</div>
+
+
+
+
+</body>
+</html>
